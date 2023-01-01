@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.morher.house</groupId>
+		<artifactId>house-adapters-parent</artifactId>
+		<version>1.2</version>
+	</parent>
+
+	<name>WizLight Adapter</name>
+	<groupId>net.morher.house.adapter</groupId>
+	<artifactId>wizlight-adapter</artifactId>
+	<version>${revision}</version>
+	<packaging>jar</packaging>
+
+	<description>Control light bulbs from WiZ through the local UDP interface.</description>
+
+	<properties>
+		<mainClass>net.morher.house.wiz.WizAdapter</mainClass>
+	</properties>
+
+</project>
