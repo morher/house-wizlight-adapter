@@ -5,6 +5,5 @@ import lombok.Data;
 @Data
 public class WizAdapterConfig {
 
-    private WizSection wiz;
-
+  private WizSection wiz;
 }
